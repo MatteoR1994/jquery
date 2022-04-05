@@ -7,7 +7,7 @@ $(document).ready(() => {
     //     $('p').hide();
     // });
 
-    $.getJSON("./assets/array.json", function (data) { // Legge il file json
+    $.getJSON("./assets/array.json", function (data) { // Leggo il file json
         $.each(data, function (key, val) { // Per ogni elemento
             $("<p>", { // Creo il tag p, dandogli una classe e un contenuto, e lo appendo a un div contenitore
                 "class": val,
